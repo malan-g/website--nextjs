@@ -4,7 +4,7 @@ import styles from "./index.module.scss";
 import { clsx } from "clsx";
 
 const SubHeading: React.FC<SubHeadingProps> = ({ size, children }) => {
-  const className = clsx(styles.heading, {
+  const className = clsx(styles.subheading, {
     [styles.lg]: size === "lg",
     [styles.md]: size === "md",
     [styles.sm]: size === "sm",

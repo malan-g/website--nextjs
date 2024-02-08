@@ -5,13 +5,13 @@
 }
 
 .lg {
-  font-size: 1.05rem;
+  font-size: var(--paragraph-large, 1.05rem);
 }
 
 .md {
-  font-size: 1rem;
+  font-size: var(--paragraph-medium, 1rem);
 }
 
 .sm {
-  font-size: 0.85rem;
+  font-size: var(--paragraph-small, 0.85rem);
 }

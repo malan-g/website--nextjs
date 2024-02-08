@@ -5,13 +5,13 @@
 }
 
 .lg {
-  font-size: 1.3rem;
+  font-size: var(--subheading-large, 1.3rem);
 }
 
 .md {
-  font-size: 1.15rem;
+  font-size: var(--subheading-medium, 1.15rem);
 }
 
 .sm {
-  font-size: 1.05rem;
+  font-size: var(--subheading-small, 1.05rem);
 }

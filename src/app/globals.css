@@ -1,0 +1,13 @@
+:root {
+  --heading-large: 2rem;
+  --heading-medium: 1.75rem;
+  --heading-small: 1.35rem;
+
+  --subheading-large: 1.3rem;
+  --subheading-medium: 1.15rem;
+  --subheading-small: 1.05rem;
+
+  --paragraph-large: 1.05rem;
+  --paragraph-medium: 1rem;
+  --paragraph-small: 0.85rem;
+}

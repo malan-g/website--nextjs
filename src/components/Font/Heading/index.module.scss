@@ -6,13 +6,13 @@
 }
 
 .lg {
-  font-size: 2rem;
+  font-size: var(--heading-large, 2rem);
 }
 
 .md {
-  font-size: 1.75rem;
+  font-size: var(--heading-medium, 1.75rem);
 }
 
 .sm {
-  font-size: 1.35rem;
+  font-size: var(--heading-small, 1.35rem);
 }

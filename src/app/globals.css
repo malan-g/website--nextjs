@@ -12,6 +12,17 @@
   --paragraph-small: 0.85rem;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  column-gap: 5px;
+}
+
 .socials {
   display: flex;
   flex-direction: column;

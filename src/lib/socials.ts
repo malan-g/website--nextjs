@@ -8,7 +8,7 @@ export const socials: Social[] = [
   {
     label: "View my repositories",
     title: "GitHub",
-    link: "https://github.com",
+    link: "https://github.com/malan-g",
   },
   {
     label: "Connect with me on LinkedIn",

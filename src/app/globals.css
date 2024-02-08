@@ -11,3 +11,10 @@
   --paragraph-medium: 1rem;
   --paragraph-small: 0.85rem;
 }
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 0;
+  gap: 0.15rem;
+}

@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <HomeLink />
-        <Heading size="lg">Heading A</Heading>
+        <Heading size="lg">{"Malan\nGunaratne"}</Heading>
         <SubHeading size="lg">SubHeading A</SubHeading>
         <Heading size="md">Heading B</Heading>
         <SubHeading size="md">SubHeading B</SubHeading>

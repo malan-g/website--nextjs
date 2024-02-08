@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import HomeLink from "@/components/Navigation/HomeLink";
-import Heading from "@/components/Font/Heading";
+import { Heading, SubHeading } from "@/components/Font";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,8 +21,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <HomeLink />
         <Heading size="lg">Heading A</Heading>
-        <Heading size="md">Heading A</Heading>
-        <Heading size="sm">Heading A</Heading>
+        <SubHeading size="lg">SubHeading A</SubHeading>
+        <Heading size="md">Heading B</Heading>
+        <SubHeading size="md">SubHeading B</SubHeading>
+        <Heading size="sm">Heading C</Heading>
+        <SubHeading size="sm">SubHeading C</SubHeading>
         {children}
       </body>
     </html>

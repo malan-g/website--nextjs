@@ -8,7 +8,7 @@ const BulletPointCTA: React.FC<BulletPointCTAProps> = ({
 }) => {
   return (
     <div className={styles.cta}>
-      •&nbsp;
+      •&nbsp;&nbsp;
       <a href={link} title={title}>
         {label}
       </a>

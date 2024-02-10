@@ -20,7 +20,7 @@ export default function Home() {
               <ExternalLink
                 key={social.label}
                 link={social.link}
-                title={`Visit my ${social.title} page`}
+                title={social.title}
                 label={social.label}
               />
             </ArrowedLink>

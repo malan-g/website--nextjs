@@ -18,7 +18,6 @@ export default function Home() {
           <>
             <ArrowedLink key={social.label}>
               <ExternalLink
-                key={social.label}
                 link={social.link}
                 title={social.title}
                 label={social.label}

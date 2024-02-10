@@ -7,14 +7,16 @@
 }
 
 .lg {
-  font-size: var(--heading-large, 2rem);
-  line-height: var(--heading-large-line-height, 1.5);
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 .md {
-  font-size: var(--heading-medium, 1.75rem);
+  font-size: 1.5rem;
+  line-height: 1.55rem;
 }
 
 .sm {
-  font-size: var(--heading-small, 1.35rem);
+  font-size: 1.35rem;
+  line-height: 1.45rem;
 }

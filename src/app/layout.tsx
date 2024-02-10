@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import HomeLink from "@/components/Navigation/HomeLink";
+import Header from "@/components/Header";
 import { Heading, SubHeading, Paragraph } from "@/components/Font";
 import { BulletPointCTA } from "@/components/Navigation/CTAs";
 import { socials, SocialType } from "@/lib";
@@ -22,10 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header>
-          <HomeLink />
-          mobile navbar goes here
-        </header>
+        <Header />
+
         <Spacer size="xl" />
         <main>
           <aside>

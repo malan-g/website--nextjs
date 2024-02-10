@@ -21,7 +21,6 @@ export default function Home() {
               title={social.title}
               label={social.label}
             />
-            <Spacer size="sm" />
           </ArrowedLink>
         ))}
       </div>

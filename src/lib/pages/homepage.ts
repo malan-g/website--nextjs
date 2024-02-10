@@ -7,5 +7,5 @@ interface Homepage {
 export const homepage: Homepage = {
   title: "Malan\nGunaratne",
   subtitle: "An experienced junior web developer",
-  body: "Specialises in full-stack development.\nInterested in UX and Human Computer Interaction.\nCurrently sharpening their frontend skills.\nLives in Auckland, New Zealand.",
+  body: "Specialises in full-stack development.\nInterested in Software Systems.\nCurrently sharpening frontend skills.\nLives in Auckland, New Zealand.",
 };

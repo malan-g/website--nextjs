@@ -15,16 +15,14 @@ export default function Home() {
       <Spacer size="lg" />
       <div className="socials">
         {socials.map((social: SocialType) => (
-          <>
-            <ArrowedLink key={social.label}>
-              <ExternalLink
-                link={social.link}
-                title={social.title}
-                label={social.label}
-              />
-            </ArrowedLink>
+          <ArrowedLink key={social.label}>
+            <ExternalLink
+              link={social.link}
+              title={social.title}
+              label={social.label}
+            />
             <Spacer size="sm" />
-          </>
+          </ArrowedLink>
         ))}
       </div>
     </main>

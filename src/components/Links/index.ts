@@ -1,4 +1,4 @@
-import ArrowedLink from "./ArrowedLink";
+import ArrowedExternalLink from "./ArrowedExternalLink";
 import ExternalLink from "./ExternalLink";
 
-export { ArrowedLink, ExternalLink };
+export { ArrowedExternalLink, ExternalLink };

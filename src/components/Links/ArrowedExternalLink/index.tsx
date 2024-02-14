@@ -1,11 +1,17 @@
 import styles from "./index.module.scss";
-import ArrowedLinkProps from "./types";
+import { ExternalLink } from "../index";
+import ArrowedExternalLinkProps from "./types";
 
-const ArrowedLink: React.FC<ArrowedLinkProps> = ({ children }) => {
+const ArrowedExternalLink: React.FC<ArrowedExternalLinkProps> = ({
+  label,
+  title,
+  link,
+}) => {
   const className = styles.link;
+
   return (
     <span className={className}>
-      {children}
+      <ExternalLink label={label} title={title} link={link} />
       <svg
         width="10"
         height="10"
@@ -19,4 +25,4 @@ const ArrowedLink: React.FC<ArrowedLinkProps> = ({ children }) => {
   );
 };
 
-export default ArrowedLink;
+export default ArrowedExternalLink;

@@ -11,11 +11,6 @@ export const socials: Social[] = [
     link: "https://github.com/malan-g/website--nextjs",
   },
   {
-    label: "View my other repositories",
-    title: "View GitHub profile",
-    link: "https://github.com/malan-g",
-  },
-  {
     label: "Connect with me on LinkedIn",
     title: "View LinkedIn Profile",
     link: "https://linkedin.com/in/malangunaratne",

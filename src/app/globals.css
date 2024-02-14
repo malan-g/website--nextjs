@@ -4,12 +4,22 @@ header {
 }
 
 body {
-  margin-left: 15px;
+  padding-left: 15px;
 }
 
-.socials {
+nav {
   display: flex;
   flex-direction: column;
-  margin: 10px 10px 10px 0;
-  gap: 0.15rem;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sitemap > li {
+    margin-bottom: 20px;
+  }
+
+  .socials > li {
+    margin-bottom: 15px;
+  }
 }

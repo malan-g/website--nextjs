@@ -5,19 +5,11 @@ export interface MenuItem {
 
 export const menu: MenuItem[] = [
   {
-    label: "About",
-    link: "/",
+    label: "About Me",
+    link: "/about",
   },
   {
     label: "Projects",
-    link: "/",
-  },
-  {
-    label: "Resources",
-    link: "/",
-  },
-  {
-    label: "Blog",
-    link: "/",
+    link: "/projects",
   },
 ];

@@ -6,6 +6,7 @@ const InternalLink: React.FC<InternalLinkProps> = ({ label, link }) => {
   const className = styles.link;
   return (
     <Link href={link} className={className}>
+      <span className={styles.arrow}>&#9654;</span>
       {label}
     </Link>
   );
